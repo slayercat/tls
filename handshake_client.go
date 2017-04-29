@@ -2,7 +2,7 @@
 // Use of this source code is governed by a BSD-style
 // license that can be found in the LICENSE file.
 
-package runner
+package tls
 
 import (
 	"bytes"
@@ -865,7 +865,7 @@ func (hs *clientHandshakeState) doTLS13Handshake() error {
 	if encryptedExtensions.extensions.hasEarlyData {
 		// BoringSSL will always send two tickets half-RTT when
 		// negotiating 0-RTT.
-		for i := 0; i < shimConfig.HalfRTTTickets; i++ {
+		for i := 0; i < 2; i++ {
 			msg, err := c.readHandshake()
 			if err != nil {
 				return fmt.Errorf("tls: error reading half-RTT ticket: %s", err)
