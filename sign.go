@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"math/big"
 
-	"./ed25519"
+	"github.com/slayercat/tls/ed25519"
 )
 
 type signer interface {

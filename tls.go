@@ -18,7 +18,7 @@ import (
 	"strings"
 	"time"
 
-	"./ed25519"
+	"github.com/slayercat/tls/ed25519"
 )
 
 // Server returns a new TLS server side connection
