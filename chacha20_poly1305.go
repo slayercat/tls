@@ -20,7 +20,7 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"./poly1305"
+	"github.com/slayercat/tls/poly1305"
 )
 
 // See RFC 7539.

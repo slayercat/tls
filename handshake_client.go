@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"time"
 
-	"./ed25519"
+	"github.com/slayercat/tls/ed25519"
 )
 
 type clientHandshakeState struct {

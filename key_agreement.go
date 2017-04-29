@@ -16,8 +16,8 @@ import (
 	"io"
 	"math/big"
 
-	"./curve25519"
-	"./ed25519"
+	"github.com/slayercat/tls/curve25519"
+	"github.com/slayercat/tls/ed25519"
 )
 
 type keyType int

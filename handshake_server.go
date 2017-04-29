@@ -18,7 +18,7 @@ import (
 	"math/big"
 	"time"
 
-	"./ed25519"
+	"github.com/slayercat/tls/ed25519"
 )
 
 // serverHandshakeState contains details of a server handshake in progress.
