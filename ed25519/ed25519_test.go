@@ -15,7 +15,7 @@ import (
 	"strings"
 	"testing"
 
-	"./internal/edwards25519"
+	"github.com/slayercat/tls/ed25519/internal/edwards25519"
 )
 
 type zeroReader struct{}

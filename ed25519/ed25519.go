@@ -21,7 +21,7 @@ import (
 	"io"
 	"strconv"
 
-	"./internal/edwards25519"
+	"github.com/tls/ed25519/internal/edwards25519"
 )
 
 const (
